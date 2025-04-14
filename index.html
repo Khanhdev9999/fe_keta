@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Google Style Header</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <!-- Logo Image -->
+    <div class="logo">
+      <img src="./assets/logoCertApple.png" alt="Logo" class="logo-img">
+    </div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <nav class="desktop-nav">
+      <a href="#gioi-thieu">Giới thiệu</a>
+      <a href="#don-hang">Đơn hàng</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#tin-tuc">Tin tức</a>
+      <a href="#chia-se">Chia sẻ</a>
+      <a href="#ho-tro">Hỗ trợ</a>
+      <a href="#ngon-ngu">Ngôn ngữ</a>
+    </nav>
+
+    <div class="login">
+      <a href="#login" class="login-btn">Đăng nhập</a>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-nav" id="mobileMenu">
+    <div class="user-info">
+      <span class="material-icons">account_circle</span>
+      
+    </div>
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#don-hang">Đơn hàng</a>
+    <a href="#faqs">Câu hỏi thường gặp</a>
+    <a href="#tin-tuc">Tin tức</a>
+    <a href="#chia-se">Chia sẻ</a>
+    <a href="#ho-tro">Hỗ trợ</a>
+    <a href="#ngon-ngu">Ngôn ngữ</a>
+
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
