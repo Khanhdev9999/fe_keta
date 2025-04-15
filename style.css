@@ -30,7 +30,7 @@ header {
 nav {
   display: flex;
   gap: 18px;
-  justify-content: left; /* Căn giữa menu */
+  justify-content: left; /* Căn trái menu */
   flex-grow: 1; /* Làm cho menu chiếm không gian còn lại */
 }
 
